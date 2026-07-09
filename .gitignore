@@ -1,0 +1,12 @@
+﻿# Ambiente virtual
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos do PyCharm
+.idea/
+
+# Arquivos de sistema
+.DS_Store
