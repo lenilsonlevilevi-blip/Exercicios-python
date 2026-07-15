@@ -9,7 +9,7 @@ def leiaint(msg):
             break
 
         else:
-            print('Erro! Digite um número inteiro válido.')
+            print('\033[0;31m Erro! Digite um número inteiro válido.\033[m')
     return valor
 
 #Programa principal
