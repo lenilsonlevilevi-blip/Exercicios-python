@@ -1,16 +1,12 @@
 def leiaint(msg):
-    ok = False
-    valor = 0
     while True:
-        n = str(input('Digite um número: '))
+        n = str(input(msg))
         if n.isnumeric():
-            valor = int(n)
-            ok = True
-            break
-
+            return int(n)
         else:
             print('\033[0;31m Erro! Digite um número inteiro válido.\033[m')
-    return valor
+
+
 
 #Programa principal
 n = leiaint('Digite um número: ')
